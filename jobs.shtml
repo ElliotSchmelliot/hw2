@@ -8,11 +8,11 @@
 		<link rel="shortcut icon" href="img/pizza-icon.png">
 	</head>
 	<body>
-		<div class="global-container">
-			<header>
-				<!--#include virtual="inc/header.html" -->
-			</header>
+		<header>
+			<!--#include virtual="inc/header.html" -->
+		</header>
 
+		<div class="global-container">
 			<main>
 				<section id="jobs-section">
 					<h1>Jobs: Now Hiring!</h1>
@@ -23,10 +23,10 @@
 					<p>We need Delivery Drivers! Do you have a driver's license, a good record, and the ability to handle money and provide excellent customer service? Then we're looking for you. Hours and pay negotiable.</p>
 				</section>
 			</main>
-
-			<footer>
-				<!--#include virtual="inc/footer.html" -->
-			</footer>
 		</div>
+
+		<footer>
+			<!--#include virtual="inc/footer.html" -->
+		</footer>
 	</body>
 </html>
