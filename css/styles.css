@@ -21,7 +21,7 @@ body {
 	margin: 0 auto;
 	/*min-width: 850px;*/
 	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-bottom: 225px;
 }
 
 section {
@@ -162,10 +162,8 @@ li img {
 
 #menu-section img {
 	/* Original: 2700x1800 */
-	width: 225px;
-	height: 150px;
-	float: left;
-	margin-left: 30px;
+	width: 150px;
+	height: 100px;
 }
 
 #menu-section p {
@@ -251,6 +249,16 @@ p#pizza-custom {
 	font-size: 100%;
 }
 
+#menu-title-col {
+	width: 60%;
+	float: left;
+}
+
+#menu-picture-col {
+	width: 20%;
+	float: left;
+}
+
 
 /* ABOUT US CONTENT */
 #aboutus-section img {
@@ -315,13 +323,16 @@ footer a:hover {
 }
 
 footer aside {
-	font-size: 18px;
+	font-weight: bold;
 }
 
 #copyright {
 	font-size: 12px;
 }
 
+.float-left {
+	float: left;
+}
 
 @media screen and (max-width: 1025px) {
 	.global-container {
@@ -369,7 +380,7 @@ footer aside {
 	footer {
 		padding-bottom: 0;
 	}
-	
+
 	footer p {
 		margin: 0;
 		line-height: 25px;

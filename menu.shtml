@@ -15,13 +15,11 @@
 		<div class="global-container">
 			<main>
 				<section id="menu-section">
-					<div>
-						<div class="menu-cols">
-							<h1>Dawg Pizza Menu</h1>
-						</div>
-						<div class="menu-cols">
-							<img src="img/pizza-order.jpg" alt="pizza-order">
-						</div>
+					<div class="menu-title-col">
+						<h1>Dawg Pizza Menu</h1>
+					</div>
+					<div id="menu-picture-col">
+						<img src="img/pizza-order.jpg" alt="pizza-order">
 					</div>
 					<h2>Pizzas:</h2>
 					<p>All our pizzas are made with hand-thrown thin crust, baked in real wood ovens. Choose from one of these sizes:</p>
